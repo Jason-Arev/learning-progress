@@ -1,0 +1,34 @@
+# === IDE Settings ===
+.vscode/
+.idea/
+*.iml
+
+# === Java Build Files ===
+*.class
+*.jar
+*.war
+*.ear
+/bin/
+/out/
+/target/
+
+# === OS Junk ===
+.DS_Store
+Thumbs.db
+
+# === Logs, Temp, and Misc ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === Node or web stuff (just in case) ===
+node_modules/
+dist/
+build/
+
+# === Personal files ===
+*.env
+*.key
+*.db
+*.sqlite
