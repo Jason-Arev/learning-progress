@@ -1,0 +1,53 @@
+body {
+    background-image: url("Bg.gif");    
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 10px 0 30px;
+}
+
+button {
+    border: none;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    width: 220px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#increment-btn {
+    background: #991f1f;
+}
+
+#save-btn {
+    background: #1f991f;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#save-el {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #e0e0e0;
+}
