@@ -1,5 +1,3 @@
-package exercims.Grains;
-
 import java.math.BigInteger;
 
 public class Grains {

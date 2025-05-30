@@ -1,4 +1,3 @@
-package Regex;
 class Acronym {
     private final String acronym;
 

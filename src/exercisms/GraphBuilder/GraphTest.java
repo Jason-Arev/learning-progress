@@ -1,4 +1,4 @@
-package exercims.GraphBuilder;
+package exercisms.GraphBuilder;
 
 public class GraphTest {
     public static void main(String[] args) {

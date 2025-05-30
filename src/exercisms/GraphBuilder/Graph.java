@@ -1,4 +1,4 @@
-package exercims.GraphBuilder;
+package exercisms.GraphBuilder;
 import java.util.*;
 
 public class Graph {
