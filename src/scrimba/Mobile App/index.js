@@ -6,7 +6,7 @@ import { getDatabase ,
         remove } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js"
 
 const firebaseConfig = {
-  apiKey: "REDACTED_FOR_SECURITY",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "leads-tracker-app-35500.firebaseapp.com",
   databaseURL: "https://leads-tracker-app-35500-default-rtdb.firebaseio.com/",
   projectId: "leads-tracker-app-35500",

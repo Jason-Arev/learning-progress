@@ -1,8 +1,7 @@
+public class IsSymmetric {
 
-    public class isSameTree {
-        
-        @SuppressWarnings("unused")
-        public static class TreeNode {
+    @SuppressWarnings("unused")
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -15,10 +14,14 @@
         }
     }
 
-    public boolean isSameTreeChecker(TreeNode p, TreeNode q) {
+    public boolean isSymmetric(TreeNode root) {
+        return isMirrored(root.left, root.right);
+    }
+
+    public boolean isMirrored(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
         if (p == null || q == null) return false;
         if (p.val != q.val) return false;
-        return isSameTreeChecker(p.left, q.left) && isSameTreeChecker(p.right, q.right);
+        return isMirrored(p.left, q.right) && isMirrored(p.right, q.left);
     }
 }

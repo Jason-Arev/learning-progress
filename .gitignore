@@ -32,3 +32,4 @@ build/
 *.key
 *.db
 *.sqlite
+.env
