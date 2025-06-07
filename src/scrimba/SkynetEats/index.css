@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
 }
 body {
     min-width: 900px;
@@ -75,8 +76,9 @@ ul {
     max-width: 350px;
     position: absolute;
     right: -20px;
-    top: -50px;
-    z-index: -1;
+    top: 40px;
+    z-index: 2;
+    padding-left: 30px;
 }
 .hero-link {
     border: 2px solid #333333;
@@ -192,10 +194,12 @@ ul {
 }
 .submit-button {
     border: 2px solid #333333;
+    background-color: white;
     padding: 8px 20px;
     border-radius: 40px;
     margin: 10px auto 0;
     width: 130px;
+    font-size: 13px;
 	font-family: 'Poppins', sans-serif;
 }
 .submit-button:hover {
